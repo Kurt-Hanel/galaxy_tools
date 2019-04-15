@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<tool_dependency>
-	<package name="nmltoolkit" version="5b70ba84">
-		<repository changeset_revision="ffae0b4ccdca" name="package_nmltoolkit_5b70ba84" owner="jen-cabral" toolshed="http://galaxy-toolshed.corefacility.ca/" />
-	</package>
-</tool_dependency>

@@ -1,10 +1,7 @@
 <tool id="tree_relabel" name="Tree Relabeler" version="1.0.0">
 	<command interpreter="perl">
-		/\$NMLTOOLKIT_SCRIPT_PATH/nml_tree_relabeler.pl -i $treefile -t $tabfile -o $output -d $delim 
+		nml_tree_relabeler.pl -i $treefile -t $tabfile -o $output -d $delim 
 	</command>
-	<requirements>
-		<requirement type="package" version="5b70ba84">nmltoolkit</requirement>
-	</requirements>
 
 	<description>Relabels the tips of a newick formatted tree.</description>
 
